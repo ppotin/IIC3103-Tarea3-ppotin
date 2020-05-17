@@ -123,14 +123,14 @@ export default class App extends React.Component {
 
   activarSocket = (s) => {
     if (s === 'ON') {
-      console.log('Apagamos el socket')
+      // console.log('Apagamos el socket')
       this.state.socket.close()
       this.setState({ status: 'OFF', checked: false, contador: 0 })
     } else {
-      this.setState({ stocks: new Map() })
-      this.getStocksInfo()
-      this.getExchangesInfo()
-      console.log('Prendimos el socket')
+      // this.setState({ stocks: new Map() })
+      // this.getStocksInfo()
+      // this.getExchangesInfo()
+      // console.log('Prendimos el socket')
       var socketAux = io('wss://le-18262636.bitzonte.com/', {
         path: '/stocks'
       })
@@ -329,7 +329,7 @@ export default class App extends React.Component {
       var total = 0
       var numStocks = 0
       var share = 0
-      // console.log(exchangeStocks)
+      // console.log(stocks)
       exchangeStocks.forEach((ticker) => {
         var stock = stocks.get(ticker)
         if (stock) {
@@ -380,7 +380,6 @@ export default class App extends React.Component {
                     <TableCell style={style} align="center">Volumen&nbsp;Venta</TableCell>
                     <TableCell style={style} align="center">Volumen&nbsp;Total</TableCell>
                     <TableCell style={style} align="center">Cantidad&nbsp;Acciones</TableCell>
-                    <TableCell style={style} align="center">Participación</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -390,7 +389,6 @@ export default class App extends React.Component {
                       <TableCell style={style} align="center">{row.sell}</TableCell>
                       <TableCell style={style} align="center">{row.total}</TableCell>
                       <TableCell style={style} align="center">{row.numStocks}</TableCell>
-                      <TableCell style={style} align="center">{row.share}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
@@ -400,8 +398,6 @@ export default class App extends React.Component {
         </div>
       )
     })
-
-    console.log(dataExchanges)
 
     const customStyles = {
       input: (provided, state) => ({
