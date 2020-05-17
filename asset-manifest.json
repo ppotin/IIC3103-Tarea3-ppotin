@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IIC3103-Tarea3-ppotin/static/css/main.a7a99e7a.chunk.css",
+    "main.js": "/IIC3103-Tarea3-ppotin/static/js/main.566592f3.chunk.js",
+    "main.js.map": "/IIC3103-Tarea3-ppotin/static/js/main.566592f3.chunk.js.map",
+    "runtime-main.js": "/IIC3103-Tarea3-ppotin/static/js/runtime-main.91745410.js",
+    "runtime-main.js.map": "/IIC3103-Tarea3-ppotin/static/js/runtime-main.91745410.js.map",
+    "static/js/2.925ca79b.chunk.js": "/IIC3103-Tarea3-ppotin/static/js/2.925ca79b.chunk.js",
+    "static/js/2.925ca79b.chunk.js.map": "/IIC3103-Tarea3-ppotin/static/js/2.925ca79b.chunk.js.map",
+    "index.html": "/IIC3103-Tarea3-ppotin/index.html",
+    "precache-manifest.29ec1a762dd36bc54c1402e822e76e58.js": "/IIC3103-Tarea3-ppotin/precache-manifest.29ec1a762dd36bc54c1402e822e76e58.js",
+    "service-worker.js": "/IIC3103-Tarea3-ppotin/service-worker.js",
+    "static/css/main.a7a99e7a.chunk.css.map": "/IIC3103-Tarea3-ppotin/static/css/main.a7a99e7a.chunk.css.map",
+    "static/js/2.925ca79b.chunk.js.LICENSE.txt": "/IIC3103-Tarea3-ppotin/static/js/2.925ca79b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/IIC3103-Tarea3-ppotin/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91745410.js",
+    "static/js/2.925ca79b.chunk.js",
+    "static/css/main.a7a99e7a.chunk.css",
+    "static/js/main.566592f3.chunk.js"
+  ]
+}
